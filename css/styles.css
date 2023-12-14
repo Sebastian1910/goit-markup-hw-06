@@ -586,6 +586,9 @@ ol {
   border: none;
   background-color: #404bbf;
   border: none;
+}
+.close-btn:focus svg,
+.close-btn:hover svg {
   fill: #fff;
 }
 .modal {
