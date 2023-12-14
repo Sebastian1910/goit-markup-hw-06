@@ -751,5 +751,4 @@ ol {
 .box-text {
   width: 360px;
   resize: none;
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
 }
