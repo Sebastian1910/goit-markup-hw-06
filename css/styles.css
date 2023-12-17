@@ -758,6 +758,7 @@ ol {
   border-radius: 4px;
 }
 .label-subscribe {
+  display: flex;
   gap: 24px;
 }
 .input-subscribe {
@@ -837,4 +838,7 @@ ol {
 }
 .form-subscribe {
   display: flex;
+}
+.svg-icon {
+  margin-left: 16px;
 }

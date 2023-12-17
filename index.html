@@ -451,11 +451,11 @@
           <p class="subscribe-text">Subscribe</p>
           <form class="form-subscribe">
             <label class="label-subscribe">
-              <input class="input-subscribe" type="email" placeholder="E-mail" />
+              <input class="input-subscribe" type="email" placeholder="E-mail" name="subscribe-email"/>
             </label>
             <button class="button-subscribe " type="submit">
               Subscribe
-            <svg width="24" height="24">
+            <svg width="24" height="24" class="svg-icon">
               <use href="./images/icons.svg#icon-Frame-3"></use>
             </svg>
             </button>
@@ -464,7 +464,9 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+  <!-- Modal -->
+
+    <div class="backdrop is-hidden box-form" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg width="8" height="8" class="svg-close">
@@ -472,7 +474,7 @@
           </svg>
         </button>
 
-        <!-- Modal -->
+        
       <div class="box-form">
         <p class="box-modal-paragraph">Leave your contacts and we will call you back</p>
         
@@ -529,7 +531,6 @@
           <button class="button-send " type="submit">Send</button>
         
         </form>
-                  
       </div>
       </div>
     </div>
