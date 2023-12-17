@@ -774,9 +774,7 @@ ol {
   border-radius: 4px;
   color: #ffffff;
 }
-.placeholder {
-  color: #31d0aa;
-}
+
 .button-subscribe:hover {
   background-color: var(--color-dark-blue);
 }
