@@ -672,6 +672,7 @@ ol {
   margin-bottom: 16px;
 }
 .button-send {
+  margin-left: 95px;
   display: block;
   min-width: 169px;
   height: 56px;
