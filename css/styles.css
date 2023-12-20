@@ -197,6 +197,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.visually-hidden:checked + .label-privacy-policy .span-privacy-policy {
+  background-color: var(--color-dark-blue);
+  border: none;
+  fill: var(--color-white-2);
+}
 
 .container {
   width: 1158px;
