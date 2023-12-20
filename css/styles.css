@@ -765,6 +765,8 @@ ol {
   gap: 24px;
 }
 .input-subscribe {
+  display: flex;
+  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
