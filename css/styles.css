@@ -31,6 +31,9 @@ body {
   text-transform: uppercase;
   color: var(--color-blue);
 }
+.lo-go:hover {
+  color: var(--color-dark-blue);
+}
 
 .link {
   text-decoration: none;
@@ -828,6 +831,10 @@ ol {
   fill: transparent;
 }
 .svg-privacy-policy {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--gray);
 }
 .link-privacy-policy {
   color: var(--color-blue);
